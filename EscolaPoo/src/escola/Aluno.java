@@ -4,8 +4,8 @@ package escola; // Está dentro do pocote escola
 
 import java.util.Date; // Importação da classe Date
 
-
-public class Aluno {
+// A classe Aluno herda os atributos da classe Pessoa
+public class Aluno extends Pessoa {
     // Atributos
     Date dataNascimento;
     
