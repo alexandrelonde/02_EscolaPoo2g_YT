@@ -9,6 +9,9 @@ public class Aluno extends Pessoa {
     // Atributos
     Date dataNascimento;
     
+    // Associações
+    Turma turma; // Colocamos em aluno um objeto da classe turma
+    
     // Métodos
     void realizarAvaliacao(){
         
