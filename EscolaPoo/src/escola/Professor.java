@@ -12,8 +12,8 @@ public class Professor extends Pessoa {
     double salario;
     
     //Associações
-    ArrayList<Disciplina> disciplinas;
-    ArrayList<Turma> turmas;
+    ArrayList<Disciplina> disciplinas; // Muitas disciplinas para um professor
+    ArrayList<Turma> turmas; // Muitas turmas para um professor
     
     // Métodos
     void aplicarAvaliacao(){

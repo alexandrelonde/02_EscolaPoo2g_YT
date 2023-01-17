@@ -21,8 +21,9 @@ public class EscolaPoo {
         
         // Intanciação
         Disciplina disciplina1 = new Disciplina(); // Variável do tipo de uma classe é um objeto
-        disciplina1.setNome("Matemática");
-        disciplina1.setCargaHoraria(- 10);
+        disciplina1.setNome("Matematica"); // Usamos get e set para acessar Nome da disciplina
+        disciplina1.setCargaHoraria(180); // Usamos get e set para acessar Carga Horária da disciplina
+        
         
         // Imprimindo os dados
         System.out.println(disciplina1.getNome());
